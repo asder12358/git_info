@@ -1,4 +1,5 @@
 import re
+from info_maintenance import insert, search, delete, modify, sort, total, show
 
 
 def main():
@@ -27,6 +28,7 @@ def main():
             elif option_int == 7:
                 show()
 
+
 def menu():
     print('''
     1 录入学生信息
@@ -38,6 +40,7 @@ def menu():
     7 显示所有学生信息
     0 退出系统
     ''')
+
 
 if __name__ == '__main__':
     main()
